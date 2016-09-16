@@ -1,11 +1,23 @@
-<html>
-<head>
-<title> Halloween Store</title>
-<link rel="stylesheet" type="text/css" href="mystyle.css">
-</head>
-<body>
-p{
+body{
+
     font-family: "Arial", Helevetica, sans-serif;
+    
+    
 }
-</body>
-</html>
+
+h1:first-letter{
+    font-size:200%
+}
+    
+
+h2{
+    
+        font-size: 200%
+    } 
+
+
+
+h4{
+    float: left;  
+}
+
