@@ -1,23 +1,39 @@
 body{
-
-    font-family: "Arial", Helevetica, sans-serif;
-    
-    
+    font-family: "Arial", Helvetica, sans-serif;
 }
 
-h1:first-letter{
-    font-size:200%
-}
+img{
+        float: left;
+    }
     
-
-h2{
-    
-        font-size: 200%
-    } 
-
-
-
-h4{
-    float: left;  
+header{
+    text-indent: 25px; 
 }
 
+h1{
+    font-style: italic;
+    color: orange;
+    text-shadow: 2px 2px #000000
+}
+
+h2::first-letter{
+    font-size: 200%;
+}
+
+ul{
+    font-weight: bold;
+    
+    color: orange;
+    
+}
+li:hover{
+    color: green;
+}
+
+footer{
+    text-align: center;
+    font-size: 10px
+}
+
+
+    
