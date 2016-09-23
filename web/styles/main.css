@@ -1,39 +1,78 @@
+/* Copyright 2016 Jourdan Parham */
+
+html{
+    background-image:url("../images/bats.gif");
+    background-repeat: repeat;
+   ;
+}
+
+
+
 body{
     font-family: "Arial", Helvetica, sans-serif;
+    width: 800px;
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px #000000;
+    margin: auto;
+
 }
+
+
 
 img{
-        float: left;
-    }
-    
-header{
-    text-indent: 25px; 
+    float: left;
 }
 
-h1{
-    font-style: italic;
-    color: orange;
-    text-shadow: 2px 2px #000000
+header{
+    text-indent: 25px; 
+    background: linear-gradient(45deg, white, orange, black);
+    border-bottom: solid black;
+    
+   
+   
 }
+
+h2{
+    margin-left: 25px;
+    
+}
+
+p{
+    margin-left: 25px;
+}
+
+h3{
+    text-indent: 25px;
+}
+
+
 
 h2::first-letter{
     font-size: 200%;
+    
 }
 
-ul{
+
+a{
     font-weight: bold;
-    
+
     color: orange;
-    
+
 }
-li:hover{
+a:hover{
     color: green;
 }
 
 footer{
+    border-top: solid black;
     text-align: center;
-    font-size: 10px
+    line-height: 70px;
+    vertical-align: middle;
+    font-size: 10px;
+    background-color: orange;
+    background: linear-gradient(45deg, black, orange, white);
+    
 }
 
 
-    
+
