@@ -6,8 +6,6 @@ html{
    ;
 }
 
-
-
 body{
     font-family: "Arial", Helvetica, sans-serif;
     width: 800px;
@@ -17,48 +15,56 @@ body{
 
 }
 
-
-
-img{
+header img{
     float: left;
+}
+
+section img{
+    margin-left: 160px;
 }
 
 header{
     text-indent: 25px; 
     background: linear-gradient(45deg, white, orange, black);
     border-bottom: solid black;
-    
-   
-   
 }
 
 h2{
-    margin-left: 25px;
-    
+    margin-left: 160px;    
 }
 
 p{
-    margin-left: 25px;
+    margin-left: 160px;
 }
 
-h3{
-    text-indent: 25px;
-}
-
-
-
-h2::first-letter{
-    font-size: 200%;
+main h3{
+    text-indent: 160px;
     
 }
 
-
-a{
-    font-weight: bold;
-
-    color: orange;
-
+ul{
+    float: left;
+    position: absolute;
+    top: 125px;
+    width: 160px;   
 }
+
+div a{
+    color: orange;
+    font-weight: bold;
+    margin-left: 160px;   
+}
+
+h2::first-letter{
+    font-size: 200%;   
+}
+
+
+ a{
+    color: orange;
+    font-weight: bold;
+}
+
 a:hover{
     color: green;
 }
