@@ -19,6 +19,59 @@ header img{
     float: left;
 }
 
+header nav{
+    background-color: black;
+    height: 30px;
+}
+
+header nav ul{
+    
+}
+
+header nav ul li{
+    list-style-type: none;
+    width: 150px;
+    float: left;
+    
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+}
+header nav ul li a:visited{
+    color: orange;
+}
+
+section nav ul{
+    margin: 0;
+    padding: 10px;
+}
+
+section nav ul li{
+    list-style-type: none;
+    width: 140px;
+    background-color: orange;
+    margin: 3px;
+    border: 2px solid black;
+}
+
+section nav ul li a{
+    color: black;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+
+section nav ul li a:hover{
+    color: green;
+}
+
 section img{
     margin-left: 160px;
 }
@@ -42,10 +95,10 @@ main h3{
     
 }
 
-ul{
+section ul{
     float: left;
     position: absolute;
-    top: 125px;
+    top: 160px;
     width: 160px;   
 }
 
@@ -60,14 +113,9 @@ h2::first-letter{
 }
 
 
- a{
-    color: orange;
-    font-weight: bold;
-}
+ 
 
-a:hover{
-    color: green;
-}
+
 
 footer{
     border-top: solid black;
