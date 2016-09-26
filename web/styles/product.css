@@ -1,0 +1,182 @@
+/* Copyright 2016 Jourdan Parham */
+
+html{
+    background-image:url("../images/bats.gif");
+    background-repeat: repeat;
+}
+
+body{
+    font-family: "Arial", Helvetica, sans-serif;
+    width: 800px;
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px #000000;
+    margin: auto;
+
+}
+
+header img{
+    float: left;
+}
+
+header nav{
+    background-color: black;
+    height: 30px;
+}
+
+header nav ul{
+
+}
+
+header nav ul li{
+    list-style-type: none;
+    width: 150px;
+    float: left;
+
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+}
+header nav ul li a:visited{
+    color: orange;
+}
+
+#vertical-menu ul{
+    margin: 0;
+    padding: 10px;
+}
+
+#vertical-menu li{
+    list-style-type: none;
+    width: 140px;
+    background-color: orange;
+    margin: 3px;
+    border: 2px solid black;
+}
+
+#vertical-menu li a{
+    color: black;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+#advertise{
+    background-color: #F5DEB3;
+    float: right;
+    margin-top: 0;
+    width: 180px;
+}
+
+#advertise a {
+    text-align: center;
+}
+
+#advertise h2{
+    text-align: left;
+    margin-left: 6px;
+    font-size: 18px;
+}
+
+#advertise img{
+    width: 50px;
+    margin: auto;
+}
+
+#advertise figure{
+    margin: auto;  
+}
+
+#advertise a{
+    color: black;
+}
+
+#advertise a:hover{
+    color: green;
+}
+
+#advertise a:focus{
+    color: green;
+}
+
+
+aside a{
+    text-align: center;
+}
+
+section#left-menu{
+    width: 160px;
+    float: left;
+}
+
+aside ul{
+    list-style: none;
+}
+
+#vertical-menu section nav ul li a:hover{
+    color: green;
+}
+
+article{
+    float: left;
+    width: 620px;
+}
+
+article figure{
+    margin-left: 165px;
+}
+
+article figure img{
+    float: left;
+}
+
+
+header{
+    text-indent: 25px; 
+    background: linear-gradient(45deg, white, orange, black);
+    border-bottom: solid black;
+}
+
+h2{
+    margin-left: 160px;    
+}
+
+p{
+    margin-left: 160px;
+}
+
+main h3{
+    text-indent: 160px;
+
+}
+
+section ul{
+    float: left;
+    position: absolute;
+    top: 160px;
+    width: 160px;   
+}
+
+div a{
+    color: orange;
+    font-weight: bold;
+    margin-left: 160px;   
+}
+
+
+footer{
+    clear: both;
+    border-top: solid black;
+    text-align: center;
+    line-height: 70px;
+    vertical-align: middle;
+    font-size: 10px;
+    background-color: orange;
+    background: linear-gradient(45deg, black, orange, white);
+
+}
